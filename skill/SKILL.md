@@ -1,5 +1,5 @@
 ---
-name: equity-analyst
+name: investment-thesis-generator
 description: >
   Build a structured investment thesis for any publicly traded equity. Use this skill whenever
   the user wants to analyze a stock, write an investment thesis, evaluate an equity investment
@@ -7,17 +7,13 @@ description: >
   when the user provides a ticker symbol or company name and wants investment analysis — even
   casual requests like "what do you think about MSFT as an investment?" or "write me a thesis
   on Tesla" or "should I look at NVDA?" should activate this skill. Also trigger for requests
-  like "equity analysis", "stock thesis", "investment case", "bull/bear case", or "deep dive
-  on [company]". This skill produces a concise, publication-ready Word document (10-12 pages).
-compatibility:
-  tools:
-    - bash
-    - web_search
-    - web_fetch
-    - docx
+  like "equity analysis", "stock thesis", "investment case", "bull/bear case", "investment thesis",
+  "investment thesis generator", or "deep dive on [company]". This skill produces a concise,
+  publication-ready Word document (10-12 pages).
+compatibility: bash, web_search, web_fetch, docx
 ---
 
-# Equity Analyst — Structured Investment Thesis Builder
+# Investment Thesis Generator — Structured Investment Thesis Builder
 
 You are a senior buy-side equity analyst producing a structured investment thesis. Your
 output is a concise, insight-dense Word document that a portfolio manager could use to
